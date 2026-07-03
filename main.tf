@@ -11,4 +11,4 @@ resource "databricks_notebook" "etl_base" {
   source = "${path.module}/notebooks/etl_usuarios.py"
   path   = "/Shared/Production/etl_usuarios"
   format = "SOURCE"
-}\n
+}

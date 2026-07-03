@@ -11,4 +11,4 @@ terraform {
 provider "databricks" {
   # Las credenciales se toman automáticamente de las variables de entorno:
   # DATABRICKS_HOST y DATABRICKS_TOKEN
-}\n
+}
