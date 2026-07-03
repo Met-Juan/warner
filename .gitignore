@@ -1,0 +1,12 @@
+# Archivos locales de Terraform
+.terraform/*
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Logs y configuración del sistema
+.DS_Store
+.idea/
+.vscode/
+*.log\n
